@@ -9,3 +9,11 @@
      Finsupp.smul_apply, Finsupp.single_apply, smul_eq_mul, mul_ite, mul_one, mul_zero,
      Finset.sum_ite_eq', Finsupp.mem_support_iff]
    split_ifs with h
+@@ -140,7 +140,6 @@
+     (hs : ∀ (a : L) (v : V), p (a • f v)) (ha : ∀ x y, p x → p y → p (x + y)) : p x := by
+   obtain ⟨t, rfl⟩ := hf.equiv.surjective x
+   induction t with
+-  | zero => rwa [map_zero]
+   | tmul a v => rw [hf.equiv_tmul]; exact hs a v
+   | add x y hx hy => rw [map_add]; exact ha _ _ hx hy
+ 

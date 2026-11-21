@@ -3,5 +3,5 @@
   "source_sha256": "01d5450ad3d595e49b97db7df831f0900c0d459f11c5bd1b5be0e26ad31afb2f",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "Use the current coercion lemma for finite sums of finitely supported functions."
+  "notes": "Use the current coercion lemma for finite sums of finitely supported functions and remove the obsolete zero case in tensor induction."
 }
