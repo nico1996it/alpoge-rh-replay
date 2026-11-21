@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub",
+  "source_sha256": "bab261222dc7cef98e535aa1d9e619a693ce7ef96bdab28ac2f5d20337192e61",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Project polynomial coefficients and unfold ideal contraction before rewriting the kernel."
+}

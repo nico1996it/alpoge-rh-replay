@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/RestrictScalarsMapEqSpan.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/RestrictScalarsMapEqSpan.lean
+@@ -19,8 +19,7 @@
+     | add y z _ _ hy hz => rw [mul_add]; exact add_mem hy hz
+     | smul l y _ hy => rw [mul_smul_comm]; exact Submodule.smul_mem _ l hy
+   refine h.inductionOn b
+-    (motive := fun b => b * x ∈ Submodule.span L ((j : A → B) '' (I : Set A))) ?_ ?_ ?_ ?_
+-  · simp
++    (motive := fun b => b * x ∈ Submodule.span L ((j : A → B) '' (I : Set A))) ?_ ?_ ?_
+   · exact key
+   · intro l b hb
+     rw [smul_mul_assoc]; exact Submodule.smul_mem _ l hb

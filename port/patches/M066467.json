@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FormallyUnramifiedRingOfIntegers",
+  "source_sha256": "aa41bf930163c828b9fb8089cf39e1db11efdfac2f2d09e9ada55dc4c9c88e91",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update tensor product inductions and expose the algebra map in the kernel computation."
+}

@@ -1,0 +1,14 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsUniqueFactorCompletedStalkOfMap.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsUniqueFactorCompletedStalkOfMap.lean
+@@ -97,9 +97,9 @@
+     [hψ : IsLocalHom (ψ.comp (algebraMap A (AdicCompletion (maximalIdeal A) A)))] :
+     IsLocalHom ψ := by
+   have := AdicCompletion.isLocalRing_of_fg hJ
+-  apply ((IsLocalRing.local_hom_TFAE ψ).out 0 2).mpr
++  apply ((IsLocalRing.local_hom_TFAE ψ).out 1 3).mpr
+   rw [AdicCompletion.maximalIdeal_eq_map_of_fg hJ, Ideal.map_map]
+-  exact ((IsLocalRing.local_hom_TFAE _).out 0 2).mp hψ
++  exact ((IsLocalRing.local_hom_TFAE _).out 1 3).mp hψ
+ 
+ end Completion
+ 

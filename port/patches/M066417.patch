@@ -1,0 +1,22 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean
+@@ -627,7 +627,7 @@
+     ext n
+     refine Module.eq_of_localization_maximal (R := R) (fun P _ => Localization.AtPrime P)
+       (fun P _ => Algebra.linearMap R (Localization.AtPrime P)) _ _ fun m hm => ?_
+-    have := congrArg (fun q => Polynomial.coeff q n) ((key ⟨m, hm.isPrime⟩).2 (hr _) a)
++    have := congrArg (fun q : Polynomial _ => q.coeff n) ((key ⟨m, hm.isPrime⟩).2 (hr _) a)
+     simp only [Polynomial.coeff_map] at this
+     exact this
+ 
+@@ -726,8 +726,8 @@
+   have hinj : ∀ i, Function.Injective ((algebraMap S L).comp (σ i)) := by
+     intro i
+     rw [RingHom.injective_iff_ker_eq_bot]
+-    refine Ideal.eq_bot_of_comap_eq_bot (R := ℤ) ?_
+-    rw [RingHom.comap_ker, ← RingHom.injective_iff_ker_eq_bot]
++    refine Ideal.eq_bot_of_under_eq_bot (R := ℤ) ?_
++    rw [Ideal.under, RingHom.comap_ker, ← RingHom.injective_iff_ker_eq_bot]
+     exact RingHom.injective_int _
+   let φ : ι → E →+* L := fun i => IsFractionRing.lift (hinj i)
+   have hφσ : ∀ i (a : 𝓞 E), φ i a = algebraMap S L (σ i a) := fun i a =>

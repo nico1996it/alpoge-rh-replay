@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsIsoNormalizationPullbackOfToIntegralClosure",
+  "source_sha256": "cbce8c6cbf2de374855fdab07c8b1000dcbd540219b9e16f3fbd805d9fd603f7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Mathlib now wraps a self-isomorphism in Aut. Use asIso to recover its underlying isomorphism and Aut.of to package the induced action; the hypotheses and conclusions refer to the same morphisms."
+}

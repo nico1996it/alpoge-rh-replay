@@ -1,0 +1,46 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/FinrankOfIsStandardSmoothOfRelativeDimension.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/FinrankOfIsStandardSmoothOfRelativeDimension.lean
+@@ -199,7 +199,6 @@
+     (by
+       refine LinearMap.ext fun x => ?_
+       induction x with
+-      | zero => simp
+       | add x y hx hy => rw [map_add, hx, hy, map_add]
+       | tmul r m => simp [toKaehler_ofKaehler, smul_tmul'])
+     (hom_ext fun a => by simp)
+@@ -549,7 +548,6 @@
+       refine LinearMap.prod_ext (hom_ext fun a => ?_) (hom_ext fun b => ?_) <;> simp)
+     (hom_ext fun x => by
+       induction x with
+-      | zero => simp
+       | add x y hx hy => simp only [map_add, hx, hy]
+       | tmul a b => simp [d_mul, d_tmul a b])
+ 
+@@ -584,14 +582,12 @@
+   have hmul : ∀ x y, D (x * y) = ε' x • D y + ε' y • D x := by
+     intro x y
+     induction x using hφ.inductionOn with
+-    | zero => simp
+     | add x x' hx hx' => simp only [add_mul, map_add, hx, hx', add_smul, smul_add]; abel
+     | smul s x hx =>
+       rw [smul_mul_assoc, map_smul, hx, map_smul, map_smul, smul_add, smul_assoc,
+         smul_comm s (ε' y)]
+     | tmul a =>
+       induction y using hφ.inductionOn with
+-      | zero => simp
+       | add x x' hx hx' => simp only [mul_add, map_add, hx, hx', add_smul, smul_add]; abel
+       | smul s x hx =>
+         rw [mul_smul_comm, map_smul, hx, map_smul, map_smul, smul_add, smul_assoc, smul_comm s]
+@@ -602,12 +598,10 @@
+     (LinearEquiv.ofLinear (LinearMap.liftBaseChange R' (mapBase φ h)) (lift ε' D hmul)
+       (hom_ext fun x => ?_) (LinearMap.ext fun x => ?_)) (fun x => by simp)
+   · induction x using hφ.inductionOn with
+-    | zero => simp
+     | add x x' hx hx' => simp only [map_add, hx, hx']
+     | smul s x hx => simp only [map_smul, hx]
+     | tmul a => simp [hD]
+   · induction x with
+-    | zero => simp
+     | add x x' hx hx' => simp only [map_add, hx, hx']
+     | tmul s x =>
+       obtain ⟨a, rfl⟩ := d_surjective ε x

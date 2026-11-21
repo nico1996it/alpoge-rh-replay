@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsIsKroneckerCharOfDiscr",
+  "source_sha256": "de3c34f09fb495ed7760ae62f971e67c45c662d35453fd5058d342a4eb539553",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Reduce the empty ideal-counting set equality to set extensionality."
+}

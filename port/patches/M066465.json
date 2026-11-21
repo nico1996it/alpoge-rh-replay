@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FinrankOfIsStandardSmoothOfRelativeDimension",
+  "source_sha256": "763c6019e0984dc7cfd086568ef8d089d7260235efb728e5a9ed76415d6e992d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update tensor product and base-change inductions to the current generating cases."
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/BijectiveRestrictPointsOfEtaleOfHenselian.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/BijectiveRestrictPointsOfEtaleOfHenselian.lean
+@@ -266,7 +266,7 @@
+     ext a; simp [φ']
+   have hx : P.HasMap (φ' P.x) := P.hasMap.map φ'
+   have hc : (π : R →+* K).comp (algebraMap B R) = algebraMap B K := π.comp_algebraMap
+-  have H := ((HenselianLocalRing.TFAE R).out 0 2).mp ‹HenselianLocalRing R›
++  have H := ((HenselianLocalRing.TFAE R).out 1 3).mp ‹HenselianLocalRing R›
+   obtain ⟨a, ha, ha'⟩ := H (π : R →+* K) hπ (P.f.map (algebraMap B R)) (P.monic_f.map _) (φ' P.x)
+     (by rw [eval₂_map, hc]; exact hx.1)
+     (by rw [derivative_map, eval₂_map, hc]; exact hx.isUnit_derivative_f.ne_zero)

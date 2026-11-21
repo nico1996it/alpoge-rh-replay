@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo.lean
+@@ -16,7 +16,7 @@
+   have hq : (p.map (algebraMap B T)).IsPrime :=
+     IsLocalization.isPrime_of_isPrime_disjoint M T p hp hM
+   have hc : (p.map (algebraMap B T)).comap (algebraMap B T) = p :=
+-    IsLocalization.comap_map_of_isPrime_disjoint M T hp hM
++    IsLocalization.under_map_of_isPrime_disjoint M T hp hM
+   have h1 := IsLocalization.isLocalization_isLocalization_atPrime_isLocalization M
+     (Localization.AtPrime (p.map (algebraMap B T))) (p.map (algebraMap B T))
+   have h2 : IsLocalization p.primeCompl (Localization.AtPrime (p.map (algebraMap B T))) := by
+@@ -107,7 +107,6 @@
+     subst hy'
+     clear hx hy
+     induction y with
+-    | zero => exact ⟨0, by simp⟩
+     | add x y hx hy =>
+       obtain ⟨a, ha⟩ := hx
+       obtain ⟨b, hb⟩ := hy

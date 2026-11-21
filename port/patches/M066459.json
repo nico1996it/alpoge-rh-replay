@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringLiftOfSpecialFibre",
+  "source_sha256": "04529641bae44dfd229f1e8d1f3aa482b9401f3eccf53543b8de21f3da62ddb8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use one-based indices for the local homomorphism criterion."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo",
+  "source_sha256": "2abfbdf40b94e76d42516f223911599a3e9d223e60ad7901b43fb439728278a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current contraction lemma for a localized prime and the new induction cases."
+}

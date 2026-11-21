@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.RestrictScalarsMapEqSpan",
+  "source_sha256": "c13b08a4c774a148e6a5c2d0947874e62c0fe4883a49975011754b42564b748b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current base-change induction principle with its three generating cases."
+}

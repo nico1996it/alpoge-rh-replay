@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsIsKroneckerCharOfDiscr.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsIsKroneckerCharOfDiscr.lean
+@@ -151,7 +151,8 @@
+       exact ⟨I', Nat.eq_of_mul_eq_mul_left hN h1, rfl⟩
+     · rintro ⟨I', h1, rfl⟩
+       exact ⟨by rw [map_mul, h1], dvd_mul_right _ _⟩
+-  · convert Set.ncard_empty (Ideal (𝓞 K))
++  · rw [← Set.ncard_empty (Ideal (𝓞 K))]
++    congr 1
+     ext I
+     simp only [Set.mem_setOf_eq, Set.mem_empty_iff_false, iff_false, not_and]
+     rintro rfl h'
