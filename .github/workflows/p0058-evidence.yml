@@ -1,0 +1,77 @@
+name: P0058 port evidence
+on:
+  push:
+    branches: [evidence/p0058-linux]
+permissions:
+  contents: read
+jobs:
+  compile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Prepare the pinned sources and toolchain
+        shell: bash
+        run: |
+          set -euo pipefail
+          work="$RUNNER_TEMP/p0058"
+          mkdir -p "$work/parts"
+          cd "$work"
+          curl -fsSL --retry 3 -o lean.tar.zst https://github.com/leanprover/lean4/releases/download/v4.36.0/lean-4.36.0-linux.tar.zst
+          echo '2b7ab1ed8b92d2e6abfaf41344823b510064dbc9c0260cac73eb496ab2dea6eb  lean.tar.zst' | sha256sum -c -
+          tar --zstd -xf lean.tar.zst
+          rm lean.tar.zst
+          echo "$work/lean-4.36.0-linux/bin" >> "$GITHUB_PATH"
+          python3 - <<'PY'
+          import gzip, json, os
+          from pathlib import Path
+          with gzip.open(Path(os.environ['GITHUB_WORKSPACE'])/'tracker/modules.jsonl.gz','rt') as stream:
+              rows = [r for r in map(json.loads, stream) if r['packet'] == 'P0058']
+          assert len(rows) == 64
+          patches = Path(os.environ['GITHUB_WORKSPACE'])/'port/patches'
+          rows.sort(key=lambda r: not (patches/(r['id']+'.patch')).is_file())
+          rows.sort(key=lambda r: r['id'] != 'M117317')
+              Path('ids').write_text(''.join(r['id']+'\n' for r in rows))
+              Path('targets').write_text(''.join(r['module']+'\n' for r in rows))
+          Path('sources').write_text(''.join('lean/src/'+r['module'].replace('.','/')+'.lean\n' for r in rows))
+          Path('source-digests').write_text(''.join(r['source_sha256']+'  lean/src/'+r['module'].replace('.','/')+'.lean\n' for r in rows))
+          PY
+          cd parts
+          awk '{print $2}' "$GITHUB_WORKSPACE/parts.sha256" | xargs -P 4 -I@ curl -fsSL --retry 3 -o @ https://alpo.ge/lean.tar.gz.@
+          sha256sum -c "$GITHUB_WORKSPACE/parts.sha256"
+          cat part* | tar -xz -C "$work" -T "$work/sources" lean/lakefile.toml
+          cd "$work"
+          sha256sum -c source-digests
+          cd lean
+          while read -r id; do
+            patch="$GITHUB_WORKSPACE/port/patches/$id.patch"
+            if [[ -f "$patch" ]]; then git apply --whitespace=error-all "$patch"; fi
+          done < ../ids
+          sed -i 's/0df444a360eaa60ab8c11dca51a86af692955474/fc4f59e577feb1a4956671bc04ac18aaaf8cd842/' lakefile.toml
+          echo leanprover/lean4:v4.36.0 > lean-toolchain
+      - name: Fetch dependencies and build all 64 modules
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/p0058/lean"
+          lean --version
+          MATHLIB_NO_CACHE_ON_UPDATE=1 lake update
+          test "$(git -C .lake/packages/mathlib rev-parse HEAD)" = fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+          git -C .lake/packages/mathlib rev-parse HEAD
+          lake exe cache get
+          export LEAN_NUM_THREADS=2
+          mapfile -t targets < ../targets
+          failed=0
+          for ((i=0; i<${#targets[@]}; i+=2)); do
+            a=${targets[i]}
+            b=${targets[i+1]}
+            echo "lake build +$a:olean +$b:olean"
+            if ! lake build "+$a:olean" "+$b:olean"; then
+              failed=1
+              continue
+            fi
+            sha256sum ".lake/build/lib/lean/${a//./\/}.olean" ".lake/build/lib/lean/${b//./\/}.olean"
+          done
+          exit "$failed"
