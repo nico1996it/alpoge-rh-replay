@@ -5,7 +5,7 @@
      apply Finset.sum_congr rfl
      intro p hp
 -    rw [Nat.factorization_def n (hT p hp)]
-+    rw [Nat.factorization_def n (hT p hp), padicValNat_def]
++    rw [Nat.factorization_def n (hT p hp), Nat.padicValNat_def]
    rw [hT', hlog]
    calc ∑ p ∈ T, (n.factorization p : ℝ) * Real.log p
        = ∑ p ∈ T ∩ n.primeFactors, (n.factorization p : ℝ) * Real.log p := by
@@ -15,7 +15,7 @@
    have hv : padicValNat 2 (2 ^ a * m) = a := by
 -    rw [padicValNat.mul (by positivity) hm.pos.ne', padicValNat.prime_pow,
 -      padicValNat.eq_zero_of_not_dvd (by rwa [← even_iff_two_dvd, Nat.not_even_iff_odd]), add_zero]
-+    rw [padicValNat_def, Nat.multiplicity_mul (by positivity) hm.pos.ne', Nat.multiplicity_prime_pow,
++    rw [Nat.padicValNat_def, Nat.multiplicity_mul (by positivity) hm.pos.ne', Nat.multiplicity_prime_pow,
 +      multiplicity_eq_zero_of_not_dvd (by rwa [← even_iff_two_dvd, Nat.not_even_iff_odd]), add_zero]
    rw [hv]
    apply pm_of_two_pow a K x hx
@@ -25,7 +25,7 @@
  
  theorem two_pow_padicVal_le (o : ℕ) (ho : 0 < o) : 2 ^ padicValNat 2 o ≤ o := by
 -  exact Nat.le_of_dvd ho pow_padicValNat_dvd
-+  rw [padicValNat_def]
++  rw [Nat.padicValNat_def]
 +  exact Nat.le_of_dvd ho (pow_multiplicity_dvd 2 o)
  
  end Formalism.MainNotions.TwistedPlaces.Cong
