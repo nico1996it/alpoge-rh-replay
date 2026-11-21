@@ -9,3 +9,24 @@
      exact Ideal.Quotient.maximal_of_isField _ (Ring.isField_iff_maximal_bot.mpr h4)
  
  end KrullAkizuki
+@@ -209,7 +209,7 @@
+       ⟨c * x, LocalSubring.le_ofPrime B p hcx⟩, Subtype.ext rfl⟩
+   have hKA := krullAkizuki_of_birational (A := A0) (B := V) hbir
+   haveI : IsNoetherianRing V := hKA.1
+-  haveI : IsPrincipalIdealRing V := ((IsBezout.TFAE (R := V)).out 0 1).mp hKA.1
++  haveI : IsPrincipalIdealRing V := ((IsBezout.TFAE (R := V)).out 1 2).mp hKA.1
+   have hVy0 : y ∈ V := hBV hy
+   have hne : IsLocalRing.maximalIdeal V ≠ ⊥ := by
+     intro h
+@@ -665,9 +665,9 @@
+   have hq' : (q.map (algebraMap A S)).IsPrime :=
+     IsLocalization.isPrime_of_isPrime_disjoint p.primeCompl S q inferInstance hdis
+   have hc : (q.map (algebraMap A S)).comap (algebraMap A S) = q :=
+-    IsLocalization.comap_map_of_isPrime_disjoint p.primeCompl S inferInstance hdis
++    IsLocalization.under_map_of_isPrime_disjoint p.primeCompl S inferInstance hdis
+   have hm : (maximalIdeal S).comap (algebraMap A S) = p :=
+-    Localization.AtPrime.comap_maximalIdeal
++    Localization.AtPrime.under_maximalIdeal
+   obtain ⟨O, _, _, _, _, φ, h1, h2⟩ := exists_complete_discreteValuationRing_ker_eq
+     (q.map (algebraMap A S)) (fun h => hqp.ne (by rw [← hc, h, hm]))
+   refine ⟨O, inferInstance, inferInstance, inferInstance, inferInstance,

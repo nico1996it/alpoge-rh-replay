@@ -3,5 +3,5 @@
   "source_sha256": "d66be74be2c6b2ce18463b1662315d9c7e6a2bf017c59d8dfd16348242cef71f",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "Use the integral extension theorem for the ideal under the algebra map."
+  "notes": "Use the current ideal contraction lemmas and the one-based indices of the B\u00e9zout equivalences."
 }
