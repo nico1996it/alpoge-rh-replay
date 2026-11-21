@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.VectorStabilizer",
+  "source_sha256": "33746819d429e884e8432c1d25a3e62101c7ebd2c1716ba5a60b4e94aedf853a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

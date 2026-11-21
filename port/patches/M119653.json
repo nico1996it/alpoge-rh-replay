@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.AdelicLattices.IsSelfDualLat",
+  "source_sha256": "17b54c5c087ba816fc1ab5b70cf28309e53a3de3d3be1791587dfa9e17a08298",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

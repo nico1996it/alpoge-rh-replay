@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TwoNeZeroNat",
+  "source_sha256": "b1f0fc62a216d8e9c44d60c7ba066dcb4e2a0f7155c418f2a7a41cb7c37f9049",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

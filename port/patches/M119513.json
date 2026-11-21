@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WhittakerHecke.EqZeroOfOrthogonalEvenHomogeneousTrig",
+  "source_sha256": "e50ebc9965e54547d4ac24eb23913a6e6d15ea36dae0cddc93f3551212d16852",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

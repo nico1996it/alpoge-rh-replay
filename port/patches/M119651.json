@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.AdelicLattices.FactPrimes",
+  "source_sha256": "f01c7bc6dd05b1811e592f4867888ec886eb150af1a77c47d7846d525db87e8b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UnopSMul",
+  "source_sha256": "7a4d4d56b35750d4b75ef73239ef3c962f43ce6ed38b6897f5f5d1d0d6ef6774",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

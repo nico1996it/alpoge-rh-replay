@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.TwistedTraces.TracePairingSeparatesEndomorphisms",
+  "source_sha256": "20766da9dcfb1e781bf5920cbaabc5f6f9e0a6b521d5c068dd9ea75b745f8759",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

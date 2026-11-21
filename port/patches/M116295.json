@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.HoweDuality.FactorApply",
+  "source_sha256": "b618004c4d23a0f6c8c461ee33e7c3ba9dd3d48cad3fd2695b10f824e298cf82",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

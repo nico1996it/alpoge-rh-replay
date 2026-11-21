@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.GapCondExample",
+  "source_sha256": "87cc244e7db790606458c4aa2acb0202762926bf9cf9a9bae5e3c261563eaa66",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

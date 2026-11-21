@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WeightCongruences.TorsionOrderLeTwoMulFinrankSq",
+  "source_sha256": "bea4fa2e0afa28c68b1dc6042ae55d020fdd38495eb3a86af366330bf0f6e949",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

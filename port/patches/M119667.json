@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsSplitGaussChars",
+  "source_sha256": "db2675ea28e6f82582c2e01b51d9f7d8a6b119913807a1df6cd1a500d9f745db",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

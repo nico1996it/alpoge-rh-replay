@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WhittakerHecke.IsAffineOpenImagePullbackOpenImmersionChart",
+  "source_sha256": "f22a0cd417a6f82b6434c665db012d7b7b6b24ecd5c740e0c20a44a79f5178a6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

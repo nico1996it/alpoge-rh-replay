@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ResidueCharacters.SumLogDivSqModPmOneLe",
+  "source_sha256": "165537f8d97304a452969fec966261481308ef073db0fc95abc5c60cc2aad4bc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite natural p-adic valuations as multiplicities for the factorization, product and divisibility lemmas."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.TwistedTraces.ListOfFnProdEqMulUpdateOneOfPairwiseCommute",
+  "source_sha256": "07c437670a3cd66bca1224c3e11d22101ce4a659815ffdeb6fbf237ec8a1ea6a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

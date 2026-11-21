@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.WeightsCompactStabilizer",
+  "source_sha256": "95401454a18ff2f611364340015e7482fcaf1421d262a382f684377ea3e0a104",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

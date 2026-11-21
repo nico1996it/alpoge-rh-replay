@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WhittakerHecke.EqZeroAtOneOfFourierIntegralEqZero",
+  "source_sha256": "96f650c11b218e4daf4517c1c5944936cf82b7fdb425d1d516f68cdf830e8b4c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WhittakerHecke.IntegrableAndContinuousMellinIntegralOfRapidDeca",
+  "source_sha256": "f54b50368ca7a9513f99b016a1b622472c940a64d051eafc7e3a1b02c314b0d3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

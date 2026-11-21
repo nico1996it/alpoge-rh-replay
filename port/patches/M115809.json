@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.VandermondeOfEqDet",
+  "source_sha256": "5dbb73c197887f0a825ddffaa2474c2498c311a57dfcfc3c28464793fa241339",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

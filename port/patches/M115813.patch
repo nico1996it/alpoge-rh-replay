@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/VolumePreservingUncurry.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/VolumePreservingUncurry.lean
+@@ -18,7 +18,7 @@
+             fun (i : Prod ι κ) ↦ Real.measureSpace)) := by
+   intro ι κ _ _
+   have hm : Measurable (@Function.uncurry ι κ ℝ) :=
+-    measurable_pi_lambda _ fun p ↦ (measurable_pi_apply p.2).comp (measurable_pi_apply p.1)
++    Measurable.of_eval fun p ↦ (measurable_pi_apply p.2).comp (measurable_pi_apply p.1)
+   refine ⟨hm, ?_⟩
+   symm
+   refine MeasureTheory.Measure.pi_eq (μ := fun _ : ι × κ ↦ (MeasureTheory.volume : MeasureTheory.Measure ℝ)) ?_

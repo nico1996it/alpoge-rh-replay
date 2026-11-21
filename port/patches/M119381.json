@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.TwistedTraces.ExistsAlgHomEndIntertwiningMemAdjoin",
+  "source_sha256": "3f4d245f8838b80c3dbf9276831e02d48ac3531ee7fde5a559ddbccdad2d74a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

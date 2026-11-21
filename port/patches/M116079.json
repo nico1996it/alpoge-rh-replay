@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.QuadraticCharacters.LogDerivAtOne",
+  "source_sha256": "b0fbbff5ffe1f435c38ad8d42a5b2c96e40ac28b6676b5b5cd5b3bca30bffb37",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

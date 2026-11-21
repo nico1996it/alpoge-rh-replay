@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.ValNeBot",
+  "source_sha256": "a478591a8dfca5d940f5ee8289bd420dc2d67c4084717a99e1cf24d1d4eb0a05",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

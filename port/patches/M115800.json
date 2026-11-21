@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UnitaryGroupStatement",
+  "source_sha256": "55a0e99c10840a6509fb399765ac2489ff4205f49dfea0af2d20037f3266e138",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

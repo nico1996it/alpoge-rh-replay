@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.TwistedTraces.LinearFormEqMulTraceOfTwistedInvariant",
+  "source_sha256": "d6494af2a60b21578d18d4b7582b32a530eeafa49efb30f6228b26661de99407",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

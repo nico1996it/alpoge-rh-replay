@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.LocalEmbeddings.ValCount",
+  "source_sha256": "4205f578fc6cd5854af8d7061ac447a63e0f320958cf4a5f98526be7a3626bdb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

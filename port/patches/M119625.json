@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WhittakerHecke.SummableTsumInvOneAddHeightPowLe",
+  "source_sha256": "04454bcaac45b1e34cdbab174fccee9e95423c540525f70b753fb6b76ece8f1b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

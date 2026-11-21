@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WeightCongruences.ProdNegOneZpow",
+  "source_sha256": "60539f600f8ac2a73a9e9c6bdd6fb65aa45a44521f74e591391af2f71e2b2445",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UpperTriangular",
+  "source_sha256": "d95dcdcdc995ad3d4d490480737d36f78299978f0c85ffcbb1933ddc4d5da4a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

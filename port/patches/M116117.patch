@@ -1,0 +1,32 @@
+--- a/src/Development/AutomorphicArithmetic/ResidueCharacters/SumLogDivSqModPmOneLe.lean
++++ b/src/Development/AutomorphicArithmetic/ResidueCharacters/SumLogDivSqModPmOneLe.lean
+@@ -332,7 +332,7 @@
+       ∑ p ∈ T, (n.factorization p : ℝ) * Real.log p := by
+     apply Finset.sum_congr rfl
+     intro p hp
+-    rw [Nat.factorization_def n (hT p hp)]
++    rw [Nat.factorization_def n (hT p hp), padicValNat_def]
+   rw [hT', hlog]
+   calc ∑ p ∈ T, (n.factorization p : ℝ) * Real.log p
+       = ∑ p ∈ T ∩ n.primeFactors, (n.factorization p : ℝ) * Real.log p := by
+@@ -440,8 +440,8 @@
+     (2:ℤ) ^ (K - padicValNat 2 o) ∣ x - 1 ∨ (2:ℤ) ^ (K - padicValNat 2 o) ∣ x + 1 := by
+   obtain ⟨a, m, hm, rfl⟩ := Nat.exists_eq_two_pow_mul_odd ho.ne'
+   have hv : padicValNat 2 (2 ^ a * m) = a := by
+-    rw [padicValNat.mul (by positivity) hm.pos.ne', padicValNat.prime_pow,
+-      padicValNat.eq_zero_of_not_dvd (by rwa [← even_iff_two_dvd, Nat.not_even_iff_odd]), add_zero]
++    rw [padicValNat_def, Nat.multiplicity_mul (by positivity) hm.pos.ne', Nat.multiplicity_prime_pow,
++      multiplicity_eq_zero_of_not_dvd (by rwa [← even_iff_two_dvd, Nat.not_even_iff_odd]), add_zero]
+   rw [hv]
+   apply pm_of_two_pow a K x hx
+   rw [pow_mul] at h
+@@ -502,7 +502,8 @@
+     omega
+ 
+ theorem two_pow_padicVal_le (o : ℕ) (ho : 0 < o) : 2 ^ padicValNat 2 o ≤ o := by
+-  exact Nat.le_of_dvd ho pow_padicValNat_dvd
++  rw [padicValNat_def]
++  exact Nat.le_of_dvd ho (pow_multiplicity_dvd 2 o)
+ 
+ end Formalism.MainNotions.TwistedPlaces.Cong
+ 

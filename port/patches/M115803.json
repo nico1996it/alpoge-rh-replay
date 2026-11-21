@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UnramifiedAntiInvariantLocal",
+  "source_sha256": "0bfeae13889513061a464d6496f352fc854fe7ff4333e4d536ca45f219d18c7b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the faithful scalar action instance for the integral algebra-map criterion."
+}

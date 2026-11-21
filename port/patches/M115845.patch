@@ -1,0 +1,14 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/UniformContinuousConstSMulOfIsIsometricSMul.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/UniformContinuousConstSMulOfIsIsometricSMul.lean
+@@ -203,8 +203,9 @@
+ instance : IsUnitBall (PadicComplexInt p) :=
+   ⟨fun x => by
+     rw [PadicComplexInt, Valuation.mem_valuationSubring_iff, PadicComplex.norm_eq_norm,
+-      Valuation.norm_def, ← NNReal.coe_one, NNReal.coe_le_coe, PadicComplex.RankOne.hom_eq_embedding,
+-      Valuation.embedding_restrict]⟩
++      Valuation.norm_def, ← NNReal.coe_one, NNReal.coe_le_coe]
++    change Valued.v x ≤ 1 ↔ Valuation.RankOne.hom Valued.v (Valued.v.restrict x) ≤ 1
++    rw [PadicComplex.RankOne.hom_eq_embedding, Valuation.embedding_restrict]⟩
+ 
+ instance : Fact (‖(p : ℂ_[p])‖ < 1) :=
+   ⟨by

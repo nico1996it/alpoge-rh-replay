@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UnitaryRootEmbedding",
+  "source_sha256": "d7176ac933dff3c48b40d85cf45fce7c242f970f9a6aa8637214a29b13ff107b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

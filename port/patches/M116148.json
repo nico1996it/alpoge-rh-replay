@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.Splittings.ExistsCyclicGaloisTensorAlgEquivPi",
+  "source_sha256": "4c4051ca1264e2202acc57a11b1d416a89a326e107b739b028d0aade96a0b7ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/LocalEmbeddings/ConeBDefs.lean
++++ b/src/Development/AutomorphicArithmetic/LocalEmbeddings/ConeBDefs.lean
+@@ -66,7 +66,7 @@
+ 
+ theorem norm_wt_le (κ : ι → ℤ) (e : ℕ) (s : ι → ℂ) : ‖wt κ e s‖ ≤ (1 + ‖s‖) ^ (2 * e * Fintype.card ι) := by
+   rw [wt, norm_prod, pow_mul, ← Finset.card_univ, ← Finset.prod_const]
+-  refine Finset.prod_le_prod (fun _ _ => norm_nonneg _) fun w _ => ?_
++  refine Finset.prod_le_prod₀ (fun _ _ => norm_nonneg _) fun w _ => ?_
+   rw [norm_mul, norm_zpow, norm_pow, norm_div, Complex.norm_real, norm_norm]
+   have h1 : (‖s w‖ / ‖s w‖) ^ κ w ≤ 1 := by
+     by_cases h : ‖s w‖ = 0

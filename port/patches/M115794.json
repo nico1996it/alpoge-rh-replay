@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UniAMulDiag",
+  "source_sha256": "a3fe60c4c6af26ef41c909e92eba2703fc885cc6f955e8c90eb6163f69eecd85",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
