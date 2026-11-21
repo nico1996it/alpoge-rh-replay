@@ -1,0 +1,1191 @@
+GitHub Actions run https://github.com/nico1996it/alpoge-rh-replay/actions/runs/44905118974
+Lean 4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:26.0300266Z lake build +Development.AbelianVarietyTheory.Proofs.TwistedOperators.TsumSetIntegralFundamentalDomainEqZeroByOrbits:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGradedRingKernelLift:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9536194Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.TsumSetIntegralFundamentalDomainEqZeroByOrbits (4.2s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9538690Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9540791Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean:26:0: automatically included section variable(s) unused in theorem `GlobalTheory.OrbitUnfold.aedisjoint_pull`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9542199Z   [MeasurableMul H]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9542819Z   [ν.IsMulLeftInvariant]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9543460Z consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9544422Z   omit [MeasurableMul H] [ν.IsMulLeftInvariant] in theorem ...
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9544732Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9545032Z Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9546390Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean:142:10: `MeasureTheory.hasFiniteIntegral_iff_enorm` has been deprecated: Use `MeasureTheory.hasFiniteIntegral_iff_eNorm` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9547582Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9547718Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9548192Z   hasFiniteIntegral_iff_en̵N̲orm
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9549399Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean:148:12: `ENNReal.tsum_comp_le_tsum_of_injective` has been deprecated: Use `tsum_comp_le_tsum_of_injective` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9550513Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9551148Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9552204Z   ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9553412Z     [inst_3 : TopologicalSpace α] [SupConvergenceClass α] {ι' : Type u_4} [IsOrderedAddMonoid α] [OrderClosedTopology α]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9554262Z     {f : ι → ι'}, Function.Injective f → ∀ (g : ι' → α), ∑' (x : ι), g (f x) ≤ ∑' (y : ι'), g y
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9554785Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9555163Z   ∀ {α : Type u_1} {β : Type u_2} {f : α → β},
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9555793Z     Function.Injective f → ∀ (g : β → ℝ≥0∞), ∑' (x : α), g (f x) ≤ ∑' (y : β), g y
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9556194Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9556851Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.tsum_comp_le_tsum_of_injective` to `tsum_comp_le_tsum_of_injective x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9558359Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean:156:10: `toReal_enorm` has been deprecated: Use `toReal_eNorm` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9559481Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9559652Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9560075Z   toReal_en̵N̲orm
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9561284Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean:157:31: `ENNReal.ne_top_of_tsum_ne_top` has been deprecated: Use `ne_top_of_tsum_ne_top` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9565307Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9565623Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9566430Z   ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9567428Z     [inst_3 : TopologicalSpace α] [SupConvergenceClass α] {f : ι → α} [IsOrderedAddMonoid α] [OrderClosedTopology α],
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9568194Z     ∑' (a : ι), f a ≠ ⊤ → ∀ (i : ι), f i ≠ ⊤
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9568613Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9569101Z   ∀ {α : Type u_1} {f : α → ℝ≥0∞}, ∑' (a : α), f a ≠ ∞ → ∀ (a : α), f a ≠ ∞
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9569435Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9570012Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.ne_top_of_tsum_ne_top` to `ne_top_of_tsum_ne_top x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9571942Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean:158:7: `MeasureTheory.enorm_integral_le_lintegral_enorm` has been deprecated: Use `MeasureTheory.eNorm_integral_le_lintegral_eNorm` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9573280Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9573455Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9573945Z   en̵N̲orm_integral_le_lintegral_en̵N̲orm
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9574926Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.lean:164:13: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9575803Z   Function.comp_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9576036Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9576236Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9576779Z   [apply] simp only [selfEquivSigmaOrbits_symm_mk, horbit, tsum_zero]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9577124Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:34.9577427Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:36.5539893Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGradedRingKernelLift (5.8s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:36.5541475Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsGradedRingKernelLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:36.7246411Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:36.7266966Z ae72a6865b0bd87f8f8e691d9fdefbe524ac7a105119148a2b0c15030ef3bd6c  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TsumSetIntegralFundamentalDomainEqZeroByOrbits.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:36.7269985Z 53aa746621de45f1a425f1eb7f033e2cbe263a4a6fb2bbd2ad2c42db5090a0ca  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsGradedRingKernelLift.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:36.7273136Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.MapRestrictSubgroupEqCommonSmulHaar:olean +Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RealMetaplecticRepresentation:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0390466Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.MapRestrictSubgroupEqCommonSmulHaar (3.0s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0392522Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/MapRestrictSubgroupEqCommonSmulHaar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0394650Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/MapRestrictSubgroupEqCommonSmulHaar.lean:9:22: Variable name `hH` is not explicitly referenced.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0395977Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0396726Z Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0397569Z   [apply] _hH
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0397851Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0400295Z Note: This linter can be disabled with `set_option linter.unusedVariables false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0401905Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/MapRestrictSubgroupEqCommonSmulHaar.lean:98:15: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0403215Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0403860Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0404563Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0404818Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:42:44.0407308Z   M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1899458Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RealMetaplecticRepresentation (48s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1901093Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1902797Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:152:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1903593Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1903994Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1904460Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1904632Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1905280Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1906152Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:152:44: `SchwartzMap.add_apply` has been deprecated: Use `add_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1906813Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1907161Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1907623Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1907774Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1908194Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1909097Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:152:44: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1909781Z   SchwartzMap.add_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1909972Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1910521Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1911068Z   [apply] simp only [ContinuousLinearMap.add_apply, dRho_apply, pPart_add, qPart_add, inner_add_left, map_add,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1911581Z     ofReal_add]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1911898Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1912156Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1913170Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:158:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1913860Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1914256Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1914735Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1914858Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1915383Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1916413Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:158:45: `SchwartzMap.smul_apply` has been deprecated: Use `smul_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1917118Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1917493Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1917921Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1918058Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1918410Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵smul_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1919107Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:158:45: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1919753Z   SchwartzMap.smul_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1919962Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1920077Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1920649Z   [apply] simp only [ContinuousLinearMap.smul_apply, dRho_apply, pPart_smul, qPart_smul, real_inner_smul_left, map_smul,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1921218Z     ofReal_mul, smul_eq_mul, real_smul]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1921393Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1922129Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1923025Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:13: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1923762Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1924110Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1924557Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1924691Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1925181Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1926064Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:44: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1926766Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1927141Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1927634Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1927741Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1928200Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1929142Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:75: `SchwartzMap.sub_apply` has been deprecated: Use `sub_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1929775Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1930149Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1930569Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1930690Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1931221Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵sub_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1932170Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1932912Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1933333Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1933758Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1933895Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1934311Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1935213Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:36: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1936037Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1936424Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1936884Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1937008Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1937500Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵o̲n̲e̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲s̲e̲l̲f̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1938374Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:67: `SchwartzMap.smul_apply` has been deprecated: Use `smul_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1939026Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1939408Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1939851Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1939975Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1940306Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵smul_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1940995Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:75: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1941840Z   SchwartzMap.sub_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1942022Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1942183Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1942749Z   [apply] simp only [ContinuousLinearMap.sub_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.smul_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1943351Z     ContinuousLinearMap.one_apply, SchwartzMap.smul_apply, smul_eq_mul]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1943664Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1943869Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1944647Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:67: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1945345Z   SchwartzMap.smul_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1945498Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1945663Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1946188Z   [apply] simp only [ContinuousLinearMap.sub_apply, ContinuousLinearMap.mul_apply, SchwartzMap.sub_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1946797Z     ContinuousLinearMap.smul_apply, ContinuousLinearMap.one_apply, smul_eq_mul]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1947122Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1947321Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1948187Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:317:96: `if_true` has been deprecated: Use `ite_true` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1948835Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1948975Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1950074Z   i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1950865Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:328:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1951539Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1952083Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1952820Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1952949Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1953449Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1954388Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:328:45: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1955082Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1955479Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1955892Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1956027Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1956483Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1957455Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:328:76: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1958173Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1958555Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1958999Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1959138Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1959550Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵m̵_̵a̵p̵p̵l̵y̵s̲u̲m̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1960444Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:329:4: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1961136Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1961483Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1962112Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1962271Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1962710Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1963595Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:329:35: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1964266Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1964713Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1965183Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1965291Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1965729Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1966685Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:329:66: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1967419Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1967813Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1968244Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1968410Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1968860Z   C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵o̲n̲e̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲s̲e̲l̲f̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1969713Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:4: `SchwartzMap.smul_apply` has been deprecated: Use `smul_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1970423Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1970802Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1971231Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1971387Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1972061Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵smul_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1972825Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:28: `SchwartzMap.sub_apply` has been deprecated: Use `sub_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1973469Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1973791Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1974264Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1974367Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1974756Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵sub_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1975508Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:51: `SchwartzMap.add_apply` has been deprecated: Use `add_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1976148Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1976515Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1977087Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1977178Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1977603Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1978435Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:74: `SchwartzMap.sum_apply` has been deprecated: Use `sum_apply` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1979074Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1979475Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1979882Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1980020Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1980347Z   S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵sum_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1981031Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:305:46: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1981902Z   Matrix.one_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1982065Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1982203Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1982559Z   [apply] simp [Matrix.J, h]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1982715Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1982931Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1983735Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:4: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1984394Z   SchwartzMap.smul_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1984558Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1984690Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1985231Z   [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1985996Z     ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.sub_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1986681Z     SchwartzMap.add_apply, SchwartzMap.sum_apply, smul_eq_mul, hQa]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1986935Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1987172Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1987944Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:28: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1988622Z   SchwartzMap.sub_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1988796Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1988910Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1989475Z   [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1990278Z     ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.smul_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1990889Z     SchwartzMap.add_apply, SchwartzMap.sum_apply, smul_eq_mul, hQa]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1991156Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1991384Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1992539Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:51: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1993364Z   SchwartzMap.add_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1993522Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1993674Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1994225Z   [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1995007Z     ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.smul_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1995643Z     SchwartzMap.sub_apply, SchwartzMap.sum_apply, smul_eq_mul, hQa]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1995951Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1996160Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1996949Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:74: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1997717Z   SchwartzMap.sum_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1997874Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1998020Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1998569Z   [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1999336Z     ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.smul_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.1999951Z     SchwartzMap.sub_apply, SchwartzMap.add_apply, smul_eq_mul, hQa]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.2000230Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.2000460Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.2868125Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.3097097Z a4a00763c4951a1bead58577f21c2c20f3b307693490771079e71df795bd175f  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/MapRestrictSubgroupEqCommonSmulHaar.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.3108372Z 110245d4b85a9f102306b6f171f2548af345b28b71805aadcf1698152e75c09e  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:29.3110420Z lake build +Development.AutomorphicArithmetic.AdelicQuotients.ExistsNatCombinationIsUnitOfIsUnitCombination:olean +Development.AbelianVarietyTheory.Proofs.TwistedOperators.TraceMatrixPiOperator:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0898488Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.TraceMatrixPiOperator (2.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0900165Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TraceMatrixPiOperator.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0901980Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TraceMatrixPiOperator.lean:17:62: `if_pos` has been deprecated: Use `ite_eq_left` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0902790Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0903021Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0903500Z   i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0904343Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TraceMatrixPiOperator.lean:18:125: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0905062Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0905204Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0905653Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0906538Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TraceMatrixPiOperator.lean:20:21: `if_true` has been deprecated: Use `ite_true` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0907237Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0907407Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.0907827Z   i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6904207Z ⚠ [18251/18251] Built Development.AutomorphicArithmetic.AdelicQuotients.ExistsNatCombinationIsUnitOfIsUnitCombination (3.2s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6906086Z warning: src/Development/AutomorphicArithmetic/AdelicQuotients/ExistsNatCombinationIsUnitOfIsUnitCombination.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6907141Z warning: src/Development/AutomorphicArithmetic/AdelicQuotients/ExistsNatCombinationIsUnitOfIsUnitCombination.lean:39:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6907670Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6907769Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6907940Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6908319Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6908758Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6908986Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6909154Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6909818Z warning: src/Development/AutomorphicArithmetic/AdelicQuotients/ExistsNatCombinationIsUnitOfIsUnitCombination.lean:67:28: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6910431Z   Finset.sum_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6910545Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6910678Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6910977Z   [apply] simp [Matrix.sum_apply]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6911143Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.6911311Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.8276782Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.8509646Z b4e3a0d9a385c1a7e2412947f9358f4b617e1edba92c097b34fa69623abbf6ea  .lake/build/lib/lean/Development/AutomorphicArithmetic/AdelicQuotients/ExistsNatCombinationIsUnitOfIsUnitCombination.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.8510710Z 0be1bc81eaa969684825011ba482314fa715ad736d7f03c6d7800589284895df  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/TwistedOperators/TraceMatrixPiOperator.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:36.8511968Z lake build +Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnfoldIntegralFundamentalDomain:olean +Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnfoldTsumAlongSubgroup:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:43.5363679Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnfoldIntegralFundamentalDomain (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:43.5364953Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldIntegralFundamentalDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5380008Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnfoldTsumAlongSubgroup (5.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5381263Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5382957Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:8:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5383571Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5383710Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5383952Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5384417Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5384881Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5385141Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5385411Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5386054Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:9:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5386615Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5386780Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5387031Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5387562Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5388488Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5388725Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5388962Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5389603Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:10:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5390178Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5390324Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5390489Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5391014Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5391470Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5391839Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5392088Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5392972Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:61:10: `ENNReal.tsum_prod` has been deprecated: Use `tsum_prod` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5393726Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5393885Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5394546Z   ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5395277Z     [inst_3 : TopologicalSpace α] [SupConvergenceClass α] {ι' : Type u_4} [ContinuousAdd α] [T3Space α]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5395854Z     {f : ι → ι' → α}, ∑' (p : ι × ι'), f p.1 p.2 = ∑' (a : ι) (b : ι'), f a b
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5396210Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5396660Z   ∀ {α : Type u_1} {β : Type u_2} {f : α → β → ENNReal}, ∑' (p : α × β), f p.1 p.2 = ∑' (a : α) (b : β), f a b
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5396994Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5397377Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.tsum_prod` to `tsum_prod x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5398383Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:70:34: `enorm_tsum_le_tsum_enorm` has been deprecated: Use `eNorm_tsum_le_tsum_eNorm` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5399064Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5399206Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5399554Z   en̵N̲orm_tsum_le_tsum_en̵N̲orm
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5400281Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:71:87: `AEMeasurable.enorm` has been deprecated: Use `AEMeasurable.eNorm` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5401398Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:76:31: `ENNReal.tsum_le_tsum` has been deprecated: Use `tsum_le_tsum` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5402156Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5402291Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5402857Z   ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5403670Z     [inst_3 : TopologicalSpace α] [SupConvergenceClass α] {f g : ι → α} [IsOrderedAddMonoid α] [OrderClosedTopology α],
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5404257Z     f ≤ g → ∑' (a : ι), f a ≤ ∑' (a : ι), g a
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5404594Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5405013Z   ∀ {α : Type u_1} {f g : α → ENNReal}, (∀ (a : α), f a ≤ g a) → ∑' (a : α), f a ≤ ∑' (a : α), g a
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5405314Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5405669Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.tsum_le_tsum` to `tsum_le_tsum x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5406824Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:76:61: `MeasureTheory.enorm_integral_le_lintegral_enorm` has been deprecated: Use `MeasureTheory.eNorm_integral_le_lintegral_eNorm` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5407641Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5407788Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5408179Z   en̵N̲orm_integral_le_lintegral_en̵N̲orm
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5408872Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:77:15: `enorm_eq_nnnorm` has been deprecated: Use `eNorm_eq_nnNorm` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5409709Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5409835Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5410277Z   e̵n̵o̵r̵m̵_̵e̵q̵_̵n̵n̵n̵o̵r̵m̵e̲N̲o̲r̲m̲_̲e̲q̲_̲n̲n̲N̲o̲r̲m̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5410985Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.lean:83:22: `ENNReal.le_tsum` has been deprecated: Use `le_tsum` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5411516Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5411879Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5412475Z   ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5413203Z     [inst_3 : TopologicalSpace α] [SupConvergenceClass α] [IsOrderedAddMonoid α] [OrderClosedTopology α] (f : ι → α)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5413799Z     (a : ι), f a ≤ ∑' (a : ι), f a
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5414082Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5414432Z   ∀ {α : Type u_1} {f : α → ENNReal} (a : α), f a ≤ ∑' (a : α), f a
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5414710Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.5415037Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.le_tsum` to `le_tsum x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.6888485Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.7109305Z 1643eefb824ba6acbc8c8d6c105c615b4f7e767ec6c6d749b54705ca04146df8  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldIntegralFundamentalDomain.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.7110612Z dd771b97df3e84d63e98c67f1bc5187e85b15fc25b297395c379392a104f5102  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnfoldTsumAlongSubgroup.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:46.7112014Z lake build +Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnitaryExistsSkewLog:olean +Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeylNumberOperatorCommutation:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:53.7970837Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnitaryExistsSkewLog (2.8s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:53.7972366Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnitaryExistsSkewLog.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5979349Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeylNumberOperatorCommutation (3.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5980502Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5981568Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:71:46: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5982326Z   inner_neg_left
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5982500Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5982919Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5983300Z   [apply] simp only [hJJ, map_neg, inner_neg_right, hJl, neg_neg]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5983529Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5983702Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5984332Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:76:33: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5984819Z   mul_add
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5984917Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5985031Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5985431Z   [apply] simp only [mul_sub, sub_mul, add_mul, neg_mul, mul_neg, smul_mul_assoc, mul_smul_comm]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5985703Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5985871Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5986451Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:76:42: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5987032Z   add_mul
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5987127Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5987254Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5987627Z   [apply] simp only [mul_sub, sub_mul, mul_add, neg_mul, mul_neg, smul_mul_assoc, mul_smul_comm]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5987869Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5988061Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5988639Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:76:51: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5989171Z   neg_mul
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5989293Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5989405Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5989790Z   [apply] simp only [mul_sub, sub_mul, mul_add, add_mul, mul_neg, smul_mul_assoc, mul_smul_comm]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5990030Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5990221Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5990806Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:76:60: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5991291Z   mul_neg
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5991430Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5991526Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5992015Z   [apply] simp only [mul_sub, sub_mul, mul_add, add_mul, neg_mul, smul_mul_assoc, mul_smul_comm]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5992283Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5992546Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5993147Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:78:46: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5993653Z   inner_neg_left
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5993768Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5993909Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5994233Z   [apply] simp only [hJJ, map_neg, inner_neg_right, hJl, neg_neg]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5994463Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5994634Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5995209Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:79:47: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5995757Z   Complex.I_sq
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5995881Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5996003Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5996272Z   [apply] simp only [I3]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5996396Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5996587Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5997150Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:83:15: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5997663Z   mul_sub
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5997807Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5997906Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5998312Z   [apply] simp only [sub_mul, mul_add, add_mul, neg_mul, mul_neg, smul_mul_assoc, mul_smul_comm]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5998611Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5998805Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5999384Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:83:24: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.5999988Z   sub_mul
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6000127Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6000230Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6000608Z   [apply] simp only [mul_sub, mul_add, add_mul, neg_mul, mul_neg, smul_mul_assoc, mul_smul_comm]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6000908Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6001110Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6001989Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:85:46: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6002571Z   inner_neg_left
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6002692Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6002896Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6003319Z   [apply] simp only [hJJ, map_neg, inner_neg_right, hJl, neg_neg]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6003568Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6003737Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6004341Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:86:47: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6005065Z   Complex.I_sq
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6005178Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6005317Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6005596Z   [apply] simp only [I3]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6005739Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6005946Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6006694Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:72:32: Unused tactic linter: there are no goals left for `try simp only [Complex.I_sq, I3]; try ring_nf`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6007288Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6007474Z Note: This linter can be disabled with `set_option linter.unusedTactic false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6008421Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:79:32: Unused tactic linter: there are no goals left for `try simp only [Complex.I_sq, I3]; try ring_nf`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6008969Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6009167Z Note: This linter can be disabled with `set_option linter.unusedTactic false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6009912Z warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.lean:86:32: Unused tactic linter: there are no goals left for `try simp only [Complex.I_sq, I3]; try ring_nf`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6010524Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.6010686Z Note: This linter can be disabled with `set_option linter.unusedTactic false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.7281310Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.7505763Z 010ec593e97ab25b0741ef5aea06eb2e271fdae2cbca3527f641a6892111b50e  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnitaryExistsSkewLog.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.7510949Z 0735c5fa5d07045f5730d8d98f686541693f37ce9f45825b6ba82b11b03c9d7c  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeylNumberOperatorCommutation.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:43:54.7513027Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.EigenTensorFullLeftSupport:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsCommonMultiple:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0378754Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.EigenTensorFullLeftSupport (3.0s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0379900Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/EigenTensorFullLeftSupport.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0381086Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/EigenTensorFullLeftSupport.lean:20:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0382304Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0384299Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0384801Z   ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0385393Z     [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0385966Z     (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0386321Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0386714Z   ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0387289Z     [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0387816Z     motive 0 →
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0388203Z       (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0388937Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/EigenTensorFullLeftSupport.lean:33:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0389503Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0389626Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0390054Z   ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0390624Z     [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0391165Z     (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0391514Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0392060Z   ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0392722Z     [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0393113Z     motive 0 →
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.0393517Z       (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.8385856Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsCommonMultiple (3.9s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.8387159Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsCommonMultiple.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:02.8389086Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsCommonMultiple.lean:37:33: `IsAlgebraic.exists_nonzero_dvd` has been deprecated: Use `IsAlgebraic.exists_ne_zero_dvd` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:03.0149426Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:03.0384401Z b0cee53894aaf6b59e8094c5103fa09d5601540ad641c9918e4bed49340115c9  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/EigenTensorFullLeftSupport.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:03.0388980Z ca2e0da6faecb06a3ede9f76b6e017d8c15b325931c18b280ed8787e45247434  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsCommonMultiple.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:03.0391206Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsFactorFractionRing:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsFiniteSeparablePoint:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:10.8367371Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsFiniteSeparablePoint (3.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:10.8369123Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsFiniteSeparablePoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4378922Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsFactorFractionRing (5.2s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4380491Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsFactorFractionRing.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4381962Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsFactorFractionRing.lean:68:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4382558Z   letI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4382735Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4382962Z The goal is a proposition, so `let` is preferred over `letI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4383424Z The difference between `let` and `letI` is that `letI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4384285Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4384543Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.4384780Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.6322073Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.6563910Z 7e870c44e8e1afec79f063a2b13fd69d036b07e2ab69f3119fb2c7e2be5d7bd9  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsFactorFractionRing.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.6565350Z 44bb97ec13046b7d41421a4b3e59c6b9e04361f1c1e0700c63373a2ed451fb02  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsFiniteSeparablePoint.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:12.6566864Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLimitOfSuccessiveCorrections:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsMemPowOfRatioOfTorsionFree:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4531862Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLimitOfSuccessiveCorrections (2.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4533167Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsLimitOfSuccessiveCorrections.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4534287Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsMemPowOfRatioOfTorsionFree (2.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4535299Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsMemPowOfRatioOfTorsionFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4536468Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsMemPowOfRatioOfTorsionFree.lean:5:8: Overlapping instance parameters in `exists_mem_pow_of_ratio_of_torsionFree`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4536990Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4537251Z ⚠️ `[IsDomain V]` and `[IsDiscreteValuationRing V]` each imply `[Nontrivial V]`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4537755Z 💡️ Of these, `[IsDomain V]` and `[IsDiscreteValuationRing V]` may be removed.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4538003Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.4538191Z Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.6176481Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.6409536Z efef1a503cd6327cd0bb7ad52a75a6c402d82cc12e9de88836e1a5a4e8c86d8d  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsLimitOfSuccessiveCorrections.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.6410935Z 319b005aca8df8f06012c337689feac8468ca49ee623c86049d47dbdee2beddd  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsMemPowOfRatioOfTorsionFree.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:19.6424167Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsPrimeHomZmodOfNeTop:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsSmulEqBilinOfAnisotropic:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:26.9258276Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsPrimeHomZmodOfNeTop (3.1s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:26.9259551Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsPrimeHomZmodOfNeTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:27.1260658Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsSmulEqBilinOfAnisotropic (3.3s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:27.1262513Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsSmulEqBilinOfAnisotropic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:27.2897231Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:27.3137565Z 551d0c0281a51ded35e7a0a064e8f004ac04794876188e6d2988783005896f3a  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsPrimeHomZmodOfNeTop.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:27.3140391Z 36bf2e92cade5214f9f4d9bfe3ae95b37f93b6c0f4e385e1b53021c1f3157939  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsSmulEqBilinOfAnisotropic.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:27.3142541Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsTorsionLift:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.FlatCokerOfInjectiveModMaximalIdeal:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2154754Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.FlatCokerOfInjectiveModMaximalIdeal (3.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2156104Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/FlatCokerOfInjectiveModMaximalIdeal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2157356Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/FlatCokerOfInjectiveModMaximalIdeal.lean:131:25: `SetLike.not_le_iff_exists` has been deprecated: Use `IsConcreteLE.not_le_iff_exists` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2157932Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2158298Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.not_le_iff_exists` to `IsConcreteLE.not_le_iff_exists x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2158726Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2158855Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.2159304Z   S̵e̵t̵L̵i̵k̵e̵.̵n̵o̵t̵_̵l̵e̵_̵i̵f̵f̵_̵e̵x̵i̵s̵t̵s̵I̲s̲C̲o̲n̲c̲r̲e̲t̲e̲L̲E̲.̲n̲o̲t̲_̲l̲e̲_̲i̲f̲f̲_̲e̲x̲i̲s̲t̲s̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.5147226Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsTorsionLift (3.0s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.5148272Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsTorsionLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.6895914Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.6918918Z a0272782a3145aa5f3630956a73ed594dfbb241bb41aa6b0235361e504d1f3d0  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsTorsionLift.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.6925918Z 6e97a6d8c44e073d039d9d084e0707e0800e1a98b1826144e3edcc5a9749d9e7  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/FlatCokerOfInjectiveModMaximalIdeal.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:35.6928479Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsNilpotentOfRd:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPrecompleteOfLeOfPowLe:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:42.5914112Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPrecompleteOfLeOfPowLe (2.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:42.5923687Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/IsPrecompleteOfLeOfPowLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8948932Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsNilpotentOfRd (5.0s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8949918Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/IsNilpotentOfRd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8951227Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/IsNilpotentOfRd.lean:27:0: automatically included section variable(s) unused in theorem `GlobalTheory.CubeLift.coeff_avg`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8952026Z   [AddCommGroup Y]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8952898Z consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8953416Z   omit [AddCommGroup Y] in theorem ...
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8953569Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8953771Z Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8954425Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/IsNilpotentOfRd.lean:54:59: `if_pos` has been deprecated: Use `ite_eq_left` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8954867Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8954964Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:44.8955314Z   i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:45.0799865Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:45.1046183Z 4f6dfb2bf5b081a530e129faa1d1d350833388fd47b1a3365d2f3c346caccdcf  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/IsNilpotentOfRd.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:45.1047642Z 36ab56ce619a1bc6a17621f65266092e50b26364af6136659c7948b29ee88e7f  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/IsPrecompleteOfLeOfPowLe.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:45.1048801Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.LeOfPowLePolyMulPow:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.LocallyQuasiFiniteOfIsPullbackSurjective:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:51.9163642Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.LocallyQuasiFiniteOfIsPullbackSurjective (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:51.9165057Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/LocallyQuasiFiniteOfIsPullbackSurjective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:52.1165083Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.LeOfPowLePolyMulPow (2.8s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:52.1166527Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/LeOfPowLePolyMulPow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:52.3081170Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:52.3306958Z e0981fb562e6943486f47e89735ab19541cd11018568c366eb610868e955b25e  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/LeOfPowLePolyMulPow.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:52.3308554Z db02a3c2c62e43a13efe5c13ae33664782d19fb660af757ef3ab389c3dd904ad  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/LocallyQuasiFiniteOfIsPullbackSurjective.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:52.3309756Z lake build +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ShortestVectorStrictOfMul:olean +Development.AbelianVarietyTheory.Proofs.UniformizationProofs.TensorComponentNeZeroIff:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.4403603Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ShortestVectorStrictOfMul (2.8s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.4405012Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ShortestVectorStrictOfMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.6407689Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UniformizationProofs.TensorComponentNeZeroIff (3.1s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.6409020Z warning: src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/TensorComponentNeZeroIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.8095289Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.8337655Z f2611de58c7b4bedbeefe3255319c7bf9a7ab4beb10753e16bc543a743aeb9e5  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ShortestVectorStrictOfMul.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.8339413Z 24452c3acb8c8c84323385e000496cfdeddeecb6c6f0fb0ed0bd467efac990a9  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/TensorComponentNeZeroIff.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:44:59.8341866Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ConjEqNegOfSqEqNegNat:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.DetOneReductionOfDetOne:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:06.8509251Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ConjEqNegOfSqEqNegNat (2.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:06.8510341Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ConjEqNegOfSqEqNegNat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5514796Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.DetOneReductionOfDetOne (4.4s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5516040Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DetOneReductionOfDetOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5517042Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DetOneReductionOfDetOne.lean:27:4: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5517533Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5517651Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5517873Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5518265Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5518657Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5518895Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5519064Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5519588Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DetOneReductionOfDetOne.lean:30:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5520063Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5520193Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5520356Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5520729Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5521119Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5521313Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5521502Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5522196Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DetOneReductionOfDetOne.lean:32:4: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5522643Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5522771Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5522890Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5523314Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5523686Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5523872Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5524371Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5524890Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DetOneReductionOfDetOne.lean:33:4: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5525318Z   letI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5525462Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5525597Z The goal is a proposition, so `let` is preferred over `letI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5525963Z The difference between `let` and `letI` is that `letI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5526394Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5526585Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5526777Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5527541Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DetOneReductionOfDetOne.lean:79:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5528093Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5528292Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5528756Z   ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5529325Z     [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5529907Z     (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5530237Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5530615Z   ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5531179Z     [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5531568Z     motive 0 →
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.5532096Z       (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.7323182Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.7592076Z d26439c0fc7e1f1624a993dbcc92296255d74a4261f8001ed4a8485e0d981575  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ConjEqNegOfSqEqNegNat.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.7595936Z 4b2a639610ce94eaf487b308bce713a581e8214b928b52938346d0ea15e6a7ac  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DetOneReductionOfDetOne.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:08.7598094Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.DvdOfForallSubMulMem:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsAwaySubalgebraEmbedding:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:16.8579946Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsAwaySubalgebraEmbedding (3.9s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:16.8581060Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsAwaySubalgebraEmbedding.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.2594299Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.DvdOfForallSubMulMem (5.2s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.2595577Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DvdOfForallSubMulMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.2600688Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DvdOfForallSubMulMem.lean:171:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.2601281Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.2601401Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.2602045Z   d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.3689413Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.3939940Z e97ffb75aac7a03b2d2b5281bb65b24bcaf8aae1e62576ff5d581395b3915975  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/DvdOfForallSubMulMem.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.3941793Z 1321e82c140705cb251c811026bc21b12344216ae39772b15807cd096dabbc16  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsAwaySubalgebraEmbedding.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:18.3943311Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIntMulMem:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIsometryApplyEqOfFormSubNeZero:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7066177Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIntMulMem (3.0s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7067862Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIntMulMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7069296Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIntMulMem.lean:14:38: `simp` already closes the goal
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7070502Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7070609Z Hint: Use `simp` instead of `simpa`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7071028Z   [apply] simp
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7071202Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:25.7071443Z Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6176246Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIsometryApplyEqOfFormSubNeZero (11s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6177964Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6179330Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:25:38: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6180076Z   RingHom.id_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6180209Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6180403Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6180930Z   [apply] simp only [LinearMap.sub_apply, LinearMap.id_apply, LinearMap.smulRight_apply, LinearMap.smul_apply,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6181898Z     LinearMap.flip_apply, map_sub, map_smul, map_smulₛₗ, smul_eq_mul, map_mul, map_inv₀, hdd, hB y d]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6182270Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6182486Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6183417Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:54:76: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6184070Z   RingHom.id_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6184204Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6184339Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6184973Z   [apply] simp only [hw, map_add, map_smul, map_smulₛₗ, LinearMap.add_apply, LinearMap.smul_apply, smul_eq_mul, ha,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6185562Z     hB x₀ y, map_div₀, map_neg, map_mul, ← hB y y, h2]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6185812Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6186046Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6186833Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:98:10: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6187519Z   RingHom.id_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6187670Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6187835Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6188404Z   [apply] simp only [map_smul, map_smulₛₗ, LinearMap.smul_apply, smul_eq_mul, Complex.conj_ofReal, haC]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6188783Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6189023Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6189812Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:101:10: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6190472Z   RingHom.id_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6190643Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6190813Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6191982Z   [apply] simp only [map_smul, map_smulₛₗ, LinearMap.smul_apply, smul_eq_mul, Complex.conj_ofReal] at this
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6192361Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6192683Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6193497Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:107:44: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6194183Z   RingHom.id_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6194358Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6194484Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6195098Z   [apply] simp only [map_add, map_smul, map_smulₛₗ, LinearMap.add_apply, LinearMap.smul_apply, smul_eq_mul,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6195647Z     Complex.conj_ofReal]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6195810Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6196038Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6196802Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:122:44: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6197627Z   RingHom.id_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6197788Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6197925Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6198476Z   [apply] simp only [map_add, map_smul, map_smulₛₗ, LinearMap.add_apply, LinearMap.smul_apply, smul_eq_mul,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6198997Z     Complex.conj_ofReal, h0, haC] at h1 h2
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6199209Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6199448Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6200243Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:137:39: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6200903Z   RingHom.id_apply
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6201065Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6201169Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6201974Z   [apply] simp only [map_add, map_smul, map_smulₛₗ, LinearMap.add_apply, LinearMap.smul_apply, smul_eq_mul,
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6202497Z     Complex.conj_I] at h1 h2
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6202681Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6202963Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6203879Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.lean:188:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6204758Z If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6205215Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6205459Z open Lean.Parser.Tactic in
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6205808Z macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6206215Z   `(tactic| push $cfg:optConfig Not $[$loc]?)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.6206529Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.7891350Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.8122942Z c79284b43515d9c41a6549fe11de014b6da47a92cb8778bd772378f51cdb2bc3  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIntMulMem.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.8129181Z 0cc411a7bd00c30536fe830ecdfe8e2b7c87330e0f3c424a1840e6f3e47b80cd  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsIsometryApplyEqOfFormSubNeZero.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:34.8130895Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsNatMulMem:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsNeZeroSmulMemOfMemSpan:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6230334Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsNatMulMem (2.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6232059Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsNatMulMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6233428Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsNatMulMem.lean:48:31: Variable name `inst` is not explicitly referenced.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6234277Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6234730Z Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6235383Z   [apply] _inst
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6235553Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.6235779Z Note: This linter can be disabled with `set_option linter.unusedVariables false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.7231009Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsNeZeroSmulMemOfMemSpan (2.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.7232218Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsNeZeroSmulMemOfMemSpan.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.9093631Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.9320601Z 742fb51335962313a52035b00b4ac8e24fbbd76bd6b38b0be92c566f23c5aea9  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsNatMulMem.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.9322028Z 566816453205e106edf3dc0535f3d76bd9a3870368bc5601c0397908efb8258c  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsNeZeroSmulMemOfMemSpan.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:41.9323119Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsSmulMemOfSpanEqTop:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsSmulMemRange:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:48.7343916Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsSmulMemOfSpanEqTop (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:48.7345648Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsSmulMemOfSpanEqTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.2349298Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsSmulMemRange (3.1s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.2350545Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsSmulMemRange.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.2352205Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsSmulMemRange.lean:68:17: `if_true` has been deprecated: Use `ite_true` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.2352884Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.2353037Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.2353502Z   i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.3712515Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.3947376Z c2214a18dafd971d2cca4563a30eef407e2886ebd012ec56b8280be3eb6f8d16  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsSmulMemOfSpanEqTop.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.3948629Z 6768c17e8657e12af346c1d09111c73b01df4fd8f8922e70e535e174bac65d32  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsSmulMemRange.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:49.3950870Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsSystemOfParametersInsert:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsValuationSubringComplexPrimeMemNonunits:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.3891005Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsSystemOfParametersInsert (2.8s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.3892535Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsSystemOfParametersInsert.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.3894314Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsValuationSubringComplexPrimeMemNonunits (2.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.3895690Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsValuationSubringComplexPrimeMemNonunits.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.5374979Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.5609843Z a74b2d34a6e497f32c9ad6eb3670ef1b6e51c23105acfe1dff10019498027d89  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsSystemOfParametersInsert.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.5611238Z f2c185f2068c5b6c0bdd4d00de11538157b6b6ac8ca86b922f5c684afb2b91b5  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsValuationSubringComplexPrimeMemNonunits.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:45:56.5612556Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.GeneralLinearGroupCharEqOneOfDetEqOne:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.GraphRingMono:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1710019Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.GeneralLinearGroupCharEqOneOfDetEqOne (4.4s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1712165Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1714131Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.lean:44:19: `if_true` has been deprecated: Use `ite_true` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1714903Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1715073Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1715646Z   i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1716557Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.lean:150:17: `if_true` has been deprecated: Use `ite_true` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1717334Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1717522Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1717963Z   i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1719053Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.lean:204:0: automatically included section variable(s) unused in theorem `GlobalTheory.ddChar_vecMulVec_sq`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1720158Z   [DecidableEq n]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1720789Z consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1721467Z   omit [DecidableEq n] in theorem ...
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1721923Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1722209Z Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1723281Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.lean:347:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1724105Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1724320Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1724811Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1725714Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.lean:360:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1726518Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1726653Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1727079Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1728022Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.lean:384:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1728880Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1729044Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.1729479Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6712012Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.GraphRingMono (4.8s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6713840Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6715699Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:29:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6716376Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6716609Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6717520Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6718293Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6718806Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6719056Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6719303Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6719987Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:30:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6720678Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6721196Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6721375Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6722039Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6722562Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6722798Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6723114Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6723846Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:46:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6724385Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6724559Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6724725Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6725184Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6725658Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6725979Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6726213Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6726904Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:70:6: `simp` already closes the goal
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6727370Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6727526Z Hint: Use `simp` instead of `simpa`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6727841Z   [apply] simp
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6727982Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6728207Z Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6729070Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:79:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6729610Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6729762Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6729971Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6730431Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6730937Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6731194Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6731427Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6732312Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:80:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6732873Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6733026Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6733248Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6733735Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6734206Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6734465Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6734710Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6735634Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:113:10: `X_pow_sub_C_irreducible_of_prime` has been deprecated: Use `irreducible_X_pow_sub_C_of_prime` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6736296Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6736423Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6737287Z   X̵_̵p̵o̵w̵_̵s̵u̵b̵_̵C̵_̵i̵r̵r̵e̵d̵u̵c̵i̵b̵l̵e̵_̵o̵f̵_̵p̵r̵i̵m̵e̵i̲r̲r̲e̲d̲u̲c̲i̲b̲l̲e̲_̲X̲_̲p̲o̲w̲_̲s̲u̲b̲_̲C̲_̲o̲f̲_̲p̲r̲i̲m̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6737998Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.lean:131:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6738548Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6738669Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6738921Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6739380Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6739861Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6740512Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.6740709Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.8008671Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.8247215Z 6db42d8d0257fcaa3ed733084ef6461f760e1d368ca9d094fe088fdb89331c36  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GeneralLinearGroupCharEqOneOfDetEqOne.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.8250996Z adb9c34d734a3889613c91b1a527d9403cc816d4ce9973ee956be1eb10f0ca91  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/GraphRingMono.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:05.8253369Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.Imports:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsDVROfClosedSubringPrincipal:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:12.8326865Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.Imports (2.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:12.8327843Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3333049Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsDVROfClosedSubringPrincipal (3.3s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3334541Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsDVROfClosedSubringPrincipal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3335699Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsDVROfClosedSubringPrincipal.lean:73:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3336366Z If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3336791Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3337004Z open Lean.Parser.Tactic in
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3337289Z macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3337661Z   `(tactic| push $cfg:optConfig Not $[$loc]?)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3337921Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3338475Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsDVROfClosedSubringPrincipal.lean:104:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3339186Z If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3339537Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3339753Z open Lean.Parser.Tactic in
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3340029Z macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3340367Z   `(tactic| push $cfg:optConfig Not $[$loc]?)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3340619Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3341125Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsDVROfClosedSubringPrincipal.lean:117:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3342025Z If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3342425Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3342645Z open Lean.Parser.Tactic in
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3342917Z macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3343219Z   `(tactic| push $cfg:optConfig Not $[$loc]?)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3343809Z ```
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3344367Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsDVROfClosedSubringPrincipal.lean:87:8: Overlapping instance parameters in `isDVR_of_closed_subring_principal`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3344863Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3345109Z ⚠️ `[IsDomain S]` and `[IsLocalRing S]` each imply `[Nontrivial S]`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3345560Z 💡️ Of these, `[IsDomain S]` and `[IsLocalRing S]` may be removed.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3345754Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.3345956Z Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.5049004Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.5280880Z 563af64f6b524b7f7e286eb5d800119cbbca6ed970dfcf2661ff483c9ec43bf4  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/Imports.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.5284240Z 289cad85a668c5d691b27eb6c06deb9a90afd8b5a2a887b954d639f371d0c0dc  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsDVROfClosedSubringPrincipal.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:13.5286750Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsIntegrallyClosedPowerSeries:olean +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LowerTriangularMul:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2253899Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LowerTriangularMul (2.4s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2283667Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/LowerTriangularMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2313476Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/LowerTriangularMul.lean:16:29: Variable name `inst` is not explicitly referenced.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2337751Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2368332Z Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2422091Z   [apply] _inst
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2432040Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:20.2446963Z Note: This linter can be disabled with `set_option linter.unusedVariables false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7252245Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsIntegrallyClosedPowerSeries (3.9s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7253377Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7254751Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean:55:11: `PowerSeries.X_prime` has been deprecated: Use `PowerSeries.prime_X` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7255279Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7255471Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7255845Z   X̵_̵prime_̲X̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7256531Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean:62:0: automatically included section variable(s) unused in theorem `GlobalTheory.PowerSeriesNormal.exists_eq_X_pow_mul`:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7257206Z   [IsDomain R]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7257616Z consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7258039Z   omit [IsDomain R] in theorem ...
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7258221Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7258414Z Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7259145Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean:101:40: `PowerSeries.X_prime` has been deprecated: Use `PowerSeries.prime_X` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7259638Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7259746Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7260029Z   X̵_̵prime_̲X̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7260603Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean:113:44: `PowerSeries.X_prime` has been deprecated: Use `PowerSeries.prime_X` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7261454Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7261571Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7262011Z   X̵_̵prime_̲X̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7262591Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean:148:15: `PowerSeries.X_prime` has been deprecated: Use `PowerSeries.prime_X` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7263095Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7263228Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7263505Z   X̵_̵prime_̲X̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7264058Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean:188:5: `PowerSeries.X_prime` has been deprecated: Use `PowerSeries.prime_X` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7264577Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7264665Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7265037Z   X̵_̵prime_̲X̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7265617Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.lean:188:52: `PowerSeries.X_prime` has been deprecated: Use `PowerSeries.prime_X` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7266151Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7266268Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.7267036Z   X̵_̵prime_̲X̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.8658315Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.8890069Z 83ff1a9bb0abc499ddbb3af8f6ae52ec43a7cbe4c34aa1e51af1259bd100bfb2  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsIntegrallyClosedPowerSeries.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.8891602Z 79abe58ef14b05c8d983511c145f05027d43fafce8427c609ab18654a86447df  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/LowerTriangularMul.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:21.8893248Z lake build +Development.AbelianVarietyTheory.Proofs.UnitaryExistence.SmoothOfIsDedekindDomain:olean +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AevalSurjectiveOfIsNilpotentKer:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:28.9999626Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AevalSurjectiveOfIsNilpotentKer (2.9s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0001311Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/AevalSurjectiveOfIsNilpotentKer.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0003442Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/AevalSurjectiveOfIsNilpotentKer.lean:49:37: Variable name `inst` is not explicitly referenced.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0004167Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0004626Z Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0005409Z   [apply] _inst
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0005606Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0005878Z Note: This linter can be disabled with `set_option linter.unusedVariables false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0007007Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/AevalSurjectiveOfIsNilpotentKer.lean:49:57: Variable name `inst_1` is not explicitly referenced.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0007817Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0008271Z Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0008964Z   [apply] _inst_1
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0009138Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0009420Z Note: This linter can be disabled with `set_option linter.unusedVariables false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0010511Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/AevalSurjectiveOfIsNilpotentKer.lean:50:7: Variable name `inst_2` is not explicitly referenced.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0011231Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0011860Z Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0013130Z   [apply] _inst_2
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0013333Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.0013601Z Note: This linter can be disabled with `set_option linter.unusedVariables false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8009877Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.SmoothOfIsDedekindDomain (3.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8011247Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/SmoothOfIsDedekindDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8015960Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/SmoothOfIsDedekindDomain.lean:12:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8016872Z   letI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8017133Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8017342Z The goal is a proposition, so `let` is preferred over `letI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8017921Z The difference between `let` and `letI` is that `letI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8018784Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8019128Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8019407Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8019954Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/SmoothOfIsDedekindDomain.lean:47:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8020463Z   letI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8020561Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8020734Z The goal is a proposition, so `let` is preferred over `letI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8021116Z The difference between `let` and `letI` is that `letI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8021533Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8021908Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8022089Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8022680Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/SmoothOfIsDedekindDomain.lean:58:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8023149Z   letI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8023251Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8023416Z The goal is a proposition, so `let` is preferred over `letI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8023822Z The difference between `let` and `letI` is that `letI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8024213Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8024453Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8024634Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8025184Z warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/SmoothOfIsDedekindDomain.lean:61:6: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8025661Z   letI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8025769Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8025944Z The goal is a proposition, so `let` is preferred over `letI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8026320Z The difference between `let` and `letI` is that `letI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8026715Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8026950Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:29.8027129Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:30.0046112Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:30.0278206Z 4ace28c0cab551996729dceaa5c386ee95f2b019e16cf78c2bca015f28209967  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/SmoothOfIsDedekindDomain.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:30.0279553Z 7e146cb8bff4d2a45fdd9ee14dacc9f4ea97ff466607d8f4055a45d158459653  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/AevalSurjectiveOfIsNilpotentKer.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:30.0280802Z lake build +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffSubstSumLPowPowMvPowerSeries:olean +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.EqOfMapEqOfPowEqOne:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:36.9394483Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.EqOfMapEqOfPowEqOne (2.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:36.9395710Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/EqOfMapEqOfPowEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:37.1396753Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffSubstSumLPowPowMvPowerSeries (2.9s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:37.1397942Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/CoeffSubstSumLPowPowMvPowerSeries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:37.3115500Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:37.3347062Z 88c344c0856c9773b9ed1e6ac489edd0b311a3241dff840344e547fee3453694  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/CoeffSubstSumLPowPowMvPowerSeries.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:37.3348341Z 734298d1d1fc1755893602d060f7f2ec5f5ad7ae5e1e5ea86405b6488b28b29b  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/EqOfMapEqOfPowEqOne.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:37.3350268Z lake build +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsMulInvolutionAddOneMemPow:olean +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsPthRootOfDerivationZero:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2329524Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsMulInvolutionAddOneMemPow (3.7s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2330719Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsMulInvolutionAddOneMemPow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2331978Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsMulInvolutionAddOneMemPow.lean:50:4: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2332539Z   letI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2332673Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2332875Z The goal is a proposition, so `let` is preferred over `letI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2333344Z The difference between `let` and `letI` is that `letI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2333757Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2333954Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2334156Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2334790Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsPthRootOfDerivationZero (3.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2335734Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootOfDerivationZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2336965Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootOfDerivationZero.lean:14:10: `X_pow_sub_C_irreducible_of_prime` has been deprecated: Use `irreducible_X_pow_sub_C_of_prime` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2337500Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2337623Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2338103Z   X̵_̵p̵o̵w̵_̵s̵u̵b̵_̵C̵_̵i̵r̵r̵e̵d̵u̵c̵i̵b̵l̵e̵_̵o̵f̵_̵p̵r̵i̵m̵e̵i̲r̲r̲e̲d̲u̲c̲i̲b̲l̲e̲_̲X̲_̲p̲o̲w̲_̲s̲u̲b̲_̲C̲_̲o̲f̲_̲p̲r̲i̲m̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2338707Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootOfDerivationZero.lean:63:4: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2339173Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2339299Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2339449Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2339863Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2340254Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2340456Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2340652Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2341252Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootOfDerivationZero.lean:80:29: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2342479Z   derivative_mul
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2342624Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2342725Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2342989Z   [apply] simp [derivative'_apply, h1]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2343183Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.2343393Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.3902777Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.4119308Z 3a5852e68b66a990177f6cdc40824fd9947d66ef8a447f19085b875c6d56fc24  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsMulInvolutionAddOneMemPow.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.4120898Z c323a744be730128ccfc3480222489f59a85b7d14938424bfc8e099dff2b2108  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootOfDerivationZero.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:45.4122534Z lake build +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsPthRootTorusPointNilpotentAugmentedExt:olean +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.FrobeniusPowerEmbeddings:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:52.2107307Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.FrobeniusPowerEmbeddings (2.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:52.2108616Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/FrobeniusPowerEmbeddings.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1117009Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsPthRootTorusPointNilpotentAugmentedExt (3.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1118212Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootTorusPointNilpotentAugmentedExt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1119283Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootTorusPointNilpotentAugmentedExt.lean:14:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1119931Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1120034Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1120207Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1120612Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1121010Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1121245Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1121416Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1122397Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootTorusPointNilpotentAugmentedExt.lean:46:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1122924Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1123026Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1123191Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1123593Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1124019Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1124250Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1124433Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1125054Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootTorusPointNilpotentAugmentedExt.lean:47:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1125549Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1125655Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1125815Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1126203Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1126597Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1126818Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.1126981Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.2671960Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.2907761Z db5f3bd41d963e38968e2f503fc635bbe21d61689ff0d82a5d05b29002378a43  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/ExistsPthRootTorusPointNilpotentAugmentedExt.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.2909362Z d34c3715b89a864d1dae4f4886e47c8aaa6ba32e6805662602235a0b8da4cefd  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/FrobeniusPowerEmbeddings.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:46:53.2910577Z lake build +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.MemPowIffCoeffMem:olean +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.PadicIntAlgebraOfIsAdicCompleteMatrixUnique:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.2905538Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.PadicIntAlgebraOfIsAdicCompleteMatrixUnique (2.8s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.2907762Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/PadicIntAlgebraOfIsAdicCompleteMatrixUnique.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5908004Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.MemPowIffCoeffMem (3.1s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5909072Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5910281Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.lean:95:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5910707Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5910883Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5911196Z   d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5911902Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.lean:115:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5912380Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5912540Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5912881Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5913416Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.lean:122:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5913879Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5913991Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5914302Z   i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5914874Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.lean:123:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5915315Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5915416Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5915724Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5916243Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.lean:123:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5916692Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5916826Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5917105Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5917605Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.lean:114:10: This simp argument is unused:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5918093Z   Finsupp.single_le_iff
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5918251Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5918351Z Hint: Omit it from the simp argument list.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5918615Z   [apply] simp
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5918745Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.5918915Z Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.7765249Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.8018500Z 40779432167a2c2d2ec197f8ef824560b8e0b0b9e120e48c57955e886ea63637  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/MemPowIffCoeffMem.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.8019814Z 147d6bdb23a9e390723187ede2b95328e22e155c767c308b65afa39c346d32df  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/PadicIntAlgebraOfIsAdicCompleteMatrixUnique.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:00.8021970Z lake build +Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.SubstEqOfCoeffEqOfKilled:olean +Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.NormalCompletionSt:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.5038727Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.SubstEqOfCoeffEqOfKilled (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.5039778Z warning: src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/SubstEqOfCoeffEqOfKilled.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.5041040Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.NormalCompletionSt (2.4s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.5042316Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/NormalCompletionSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.6957871Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.7195483Z d8b5ff66197f86a98f278bd27a6bc1af51694fbd7217f6327af9d0c6f6805d70  .lake/build/lib/lean/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/SubstEqOfCoeffEqOfKilled.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.7197211Z 603266320d58df0e365956cdd49f4f22a1903551650fa03964d72a38bbc5c3f5  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/NormalCompletionSt.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:07.7198490Z lake build +Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IdentityComponentOpen:olean +Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsCompactDualHaar:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:14.4336732Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IdentityComponentOpen (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:14.4337932Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/Divisors₂/IdentityComponentOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:14.9343048Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsCompactDualHaar (2.9s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:14.9344451Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/Divisors₂/IsCompactDualHaar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:15.0768644Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:15.0999500Z 0acfa7e67ed1478433eeff85835ab656f684ec71f37b6e9c689c01ff708c2afd  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/Divisors₂/IdentityComponentOpen.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:15.1000985Z b36f791514582c48759510addb6b36a9bedf920b3ec148b66db3324721f40687  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/Divisors₂/IsCompactDualHaar.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:15.1002581Z lake build +Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BrauerDegreeZero:olean +Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ChevalleyUnits:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:21.8086532Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ChevalleyUnits (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:21.8087913Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/ChevalleyUnits.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:21.9088226Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BrauerDegreeZero (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:21.9089579Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/BrauerDegreeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:22.0328110Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:22.0562996Z e8bea9748e880b302c3ec60d7706de50a32aaee04b02fd803452636cae15c655  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/BrauerDegreeZero.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:22.0564191Z 457630b5b8e379fe4125ea63209052b975887d809c6517bc83f99af7756313cc  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/ChevalleyUnits.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:22.0565424Z lake build +Development.AbelianVarietyTheory.PublishedTheorems.PublishedFoundations.PrimesInProgressionNonempty:olean +Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.InverseChamberMap:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7647675Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.PublishedFoundations.PrimesInProgressionNonempty (2.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7650136Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/PublishedFoundations/PrimesInProgressionNonempty.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7651445Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/PublishedFoundations/PrimesInProgressionNonempty.lean:15:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7652253Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7652368Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7652554Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7652952Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7653376Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7653631Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:28.7653807Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9687179Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.InverseChamberMap (4.6s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9688615Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/InverseChamberMap.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9689699Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/InverseChamberMap.lean:113:48: `if_neg` has been deprecated: Use `ite_eq_right` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9690176Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9690347Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9690696Z   i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9691326Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/InverseChamberMap.lean:178:24: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9692109Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9692258Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9692650Z   S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9693302Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/InverseChamberMap.lean:223:75: `if_true` has been deprecated: Use `ite_true` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9693771Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9693876Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:30.9694155Z   i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:31.0767724Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:31.0999839Z bd00c54c2fc9ed111e34183873efa7b6b79c0f9b08ef5b993d188e70293add5a  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/PublishedFoundations/PrimesInProgressionNonempty.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:31.1003836Z a3b21badb5fb13a538bd269d3a9f4d305f82c844e0b85abb8ee56238af532a37  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/InverseChamberMap.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:31.1006242Z lake build +Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.QuadraticClassFieldTheory:olean +Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RadfordShufflePolynomialHolds:olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9054279Z ⚠ [18250/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.QuadraticClassFieldTheory (3.5s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9056310Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/QuadraticClassFieldTheory.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9058472Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/QuadraticClassFieldTheory.lean:62:21: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9059459Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9059963Z Note: The updated constant has a different type:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9060834Z   ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9062319Z     (f g : F) (x : α), (f * g) x = f (g x)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9062749Z instead of
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9063346Z   ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9063968Z     (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9064286Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9065074Z Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9066223Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/QuadraticClassFieldTheory.lean:146:2: Try this: 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9067043Z   haveI̵
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9067261Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9067784Z The goal is a proposition, so `have` is preferred over `haveI`.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9068408Z The difference between `have` and `haveI` is that `haveI` inlines the value.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9069093Z But this is not relevant for proofs because of proof irrelevance.
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9072193Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:38.9073106Z Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.4075840Z ⚠ [18251/18251] Built Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RadfordShufflePolynomialHolds (5.0s)
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.4077306Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RadfordShufflePolynomialHolds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.4079482Z warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RadfordShufflePolynomialHolds.lean:613:66: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.4080315Z 
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.4080503Z Hint: Replace the deprecated name:
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.4080943Z   MvPolynomial.monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.5354199Z Build completed successfully (18251 jobs).
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.5588875Z d451807ae6fc67aba960175f366e2a548693a76ff0c45086cf967e17b85fe8ff  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/QuadraticClassFieldTheory.olean
+compile	Fetch dependencies and build all 64 modules	2026-11-21T12:47:40.5600250Z 9ad916398c4eab57efd0357f59c82b4987cadd341a6d1499e729ab1ed64d368a  .lake/build/lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RadfordShufflePolynomialHolds.olean
